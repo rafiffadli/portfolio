@@ -33,8 +33,12 @@ export default function Navbar({ onOpenContact, onOpenTerminal }) {
         <div className="flex items-center justify-between">
           {/* Brand / Logo */}
           <a href="#" className="group flex items-center gap-3">
-            <div className="relative flex items-center justify-center w-10 h-10 rounded-xl bg-gradient-to-br from-cyan-500/20 to-blue-500/10 border border-cyan-500/40 group-hover:border-cyan-400 group-hover:shadow-lg group-hover:shadow-cyan-500/20 transition-all duration-300">
-              <Shield className="w-5 h-5 text-cyan-400 group-hover:scale-110 transition-transform duration-300" />
+            <div className="relative flex items-center justify-center w-10 h-10 rounded-xl bg-gradient-to-br from-cyan-500/20 to-blue-500/10 border border-cyan-500/40 group-hover:border-cyan-400 group-hover:shadow-lg group-hover:shadow-cyan-500/25 transition-all duration-300 overflow-hidden">
+              <img 
+                src="/favicon.png" 
+                alt={personalInfo.name} 
+                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+              />
               <span className="absolute -bottom-0.5 -right-0.5 w-2.5 h-2.5 rounded-full bg-emerald-400 ring-2 ring-[#05070d]" />
             </div>
             <div>
