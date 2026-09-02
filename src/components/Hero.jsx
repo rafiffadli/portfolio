@@ -78,7 +78,7 @@ export default function Hero({ onOpenContact, onOpenTerminal }) {
                 href="#experience"
                 className="group flex items-center gap-2 px-6 py-3.5 rounded-xl bg-gradient-to-r from-cyan-500 via-teal-400 to-blue-600 text-slate-950 font-semibold text-sm shadow-xl shadow-cyan-500/25 hover:shadow-cyan-500/40 hover:scale-[1.02] active:scale-[0.98] transition-all duration-200"
               >
-                <span>View Track Record</span>
+                <span>View My Working Experience</span>
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-200" />
               </a>
 
