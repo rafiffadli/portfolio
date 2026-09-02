@@ -11,7 +11,6 @@ export const personalInfo = {
   bio: "Cybersecurity and Network Engineering specialist with extensive experience across enterprise network operations, threat intelligence reporting, vulnerability trend analysis (CVE), multi-vendor infrastructure hardening (Aruba, Ruckus, Meraki), and IT risk governance.",
   stats: [
     { label: "Years Experience", value: "3+" },
-    { label: "Global Brands Supported", value: "Hyatt, Shangri-La, Marriott" },
     { label: "Key Certifications", value: "5" },
     { label: "Infrastructure Hardened", value: "100+ APs & Gateways" }
   ]

@@ -51,13 +51,13 @@ export default function Hero({ onOpenContact, onOpenTerminal }) {
             </p>
 
             {/* Quick Metrics Bar */}
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-2">
+            <div className="grid grid-cols-3 gap-3 pt-2">
               {personalInfo.stats.map((stat, idx) => (
                 <div 
                   key={idx}
-                  className="p-3.5 rounded-2xl bg-slate-900/60 backdrop-blur-md border border-cyan-500/15 hover:border-cyan-500/40 hover:bg-slate-900/80 transition-all group"
+                  className="p-3 sm:p-3.5 rounded-2xl bg-slate-900/60 backdrop-blur-md border border-cyan-500/15 hover:border-cyan-500/40 hover:bg-slate-900/80 transition-all group"
                 >
-                  <div className="text-xl sm:text-2xl font-mono font-bold text-cyan-400 group-hover:scale-105 transition-transform">
+                  <div className="text-lg sm:text-2xl font-mono font-bold text-cyan-400 group-hover:scale-105 transition-transform">
                     {stat.value}
                   </div>
                   <div className="text-[11px] text-slate-400 font-sans mt-0.5 leading-tight">
