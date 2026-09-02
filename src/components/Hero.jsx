@@ -43,7 +43,7 @@ export default function Hero({ onOpenContact, onOpenTerminal }) {
                   IT Security & Risk Specialist
                 </span>
                 <span className="block text-2xl sm:text-4xl lg:text-5xl text-slate-200">
-                  Vibe Coder For Fun
+                  Vibe Coding For Fun
                 </span>
               </h1>
             </div>
