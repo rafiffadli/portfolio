@@ -35,12 +35,14 @@ export default function Hero({ onOpenContact, onOpenTerminal }) {
               <div className="inline-block text-xs font-mono font-bold tracking-widest text-cyan-400 uppercase mb-2">
                 Defense &bull; Risk &bull; Enterprise Telemetry
               </div>
-              <h1 className="text-3xl sm:text-5xl lg:text-6xl font-display font-extrabold tracking-tight text-white leading-[1.15]">
-                <span className="block text-white">Rafif Fadli</span>
-                <span className="block bg-gradient-to-r from-cyan-400 via-teal-300 to-blue-500 bg-clip-text text-transparent drop-shadow-sm">
+              <h1 className="font-display font-extrabold tracking-tight text-white leading-[1.15]">
+                <span className="block text-3xl sm:text-5xl lg:text-6xl text-white">
+                  Rafif Fadli
+                </span>
+                <span className="block text-[clamp(1.15rem,3.8vw,3.15rem)] whitespace-nowrap bg-gradient-to-r from-cyan-400 via-teal-300 to-blue-500 bg-clip-text text-transparent drop-shadow-sm my-0.5">
                   IT Security & Risk Specialist
                 </span>
-                <span className="block text-slate-200">
+                <span className="block text-2xl sm:text-4xl lg:text-5xl text-slate-200">
                   Vibe Coder For Fun
                 </span>
               </h1>
