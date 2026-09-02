@@ -1,7 +1,7 @@
 export const personalInfo = {
   name: "Rafif Fadli",
   title: "IT Security & Risk Specialist | Token burner",
-  headline: "Securing Digital Frontiers & Hardening Enterprise Infrastructures",
+  headline: "Rafif Fadli | IT Security & Risk Specialist | Vibe Coder For Fun",
   location: "Federal Territory of Kuala Lumpur, Malaysia",
   email: "rafiffadlimtt@gmail.com",
   linkedin: "https://www.linkedin.com/in/rafiffadli",
